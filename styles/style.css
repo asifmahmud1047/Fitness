@@ -15,9 +15,10 @@
 .navbar-main {
   display: flex;
   justify-content: space-around;
-  max-width: 1400px;
+  max-width: 1440px;
   height: 100px;
   align-items: center;
+  margin: 0 auto;
   background: rgb(34, 34, 34);
 }
 
@@ -37,10 +38,31 @@
   border: none;
   border-radius: 35px;
   padding: 5px 15px;
-  margin-left: 10px;
+  margin-left: 1px;
   color: white;
   background-color: rgb(34, 34, 34);
   font-weight: 300;
 }
 
+.nav-hamburger-menu {
+  display: none;
+}
+
+.navbar-container {
+  border: 0.5px solid rgb(49, 49, 49);
+  border-radius: 35px;
+  justify-content: flex-start;
+}
+
 /* navbar css ends here */
+
+/* main css starts here */
+
+.main-content {
+  max-width: 1440px;
+  height: 1000px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+/* main css ends here */
