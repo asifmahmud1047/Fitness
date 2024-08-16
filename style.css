@@ -1,0 +1,755 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #000000;
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;;
+
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.clearfixb::before {
+    content: "";
+    clear: right;
+    display: table;
+}
+
+.h3{
+    font-size: 1rem;
+}
+
+.h1{
+
+    font-size: 3rem;
+}
+
+.para-text{
+    font-size: 0.8rem;
+}
+
+.shape{
+    font-family: "Grey Qo", cursive;
+    font-size: 6rem;
+}
+
+/*####################### header #######################*/
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 10%;
+    align-items: center;
+
+}
+
+.logo {
+
+    color: #E6533C;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 800;
+    text-align: left;
+
+
+}
+
+.nav-list {
+    margin-left: auto;
+}
+
+.icon {
+    margin-left: auto;
+    display: none;
+}
+
+
+
+.nav-list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid white;
+    background-color: #191919;
+    border-radius: 30px;
+}
+
+.nav-list #link-1 {
+    border-radius: 30px;
+    background-color: #E6533C;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin: 0;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+}
+
+/*####################### header #######################*/
+
+/*####################### cover #######################*/
+
+.cover {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 10%;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+}
+
+.left {
+    width: 500px;
+    height: 500px;
+}
+
+.right {
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    background-image: url(images/Images\ 2.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.button {
+    display: flex;
+    flex-direction: left;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: small;
+
+}
+
+.button li {
+    display: inline-block;
+    margin: 0;
+    padding: 5px 15px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+#one {
+    width: 100px;
+    background-color: rgba(37, 39, 41, 0.418);
+    border-radius: 15px;
+    position: relative;
+    right: -55%;
+    top: 20%;
+    padding: 10px 0 10px 10px;
+    font-size: smaller;
+}
+
+#two {
+    width: 100px;
+    background-color: rgba(37, 39, 41, 0.418);
+    border-radius: 15px;
+    position: relative;
+    left: 0%;
+    top: 60%;
+    padding: 10px 0 10px 10px;
+    font-size: smaller;
+}
+
+#dot {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #E6533C;
+}
+
+.right p {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+/*####################### cover #######################*/
+
+/*####################### habit #######################*/
+
+.habit {
+    margin: 2% 10%;
+}
+
+.habit-text {
+    color: white;
+    text-align: center;
+
+}
+
+.img-collage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-stack {
+    height: auto;
+    width: 200px;
+}
+
+.img-round {
+    height: 200px;
+    width: 200px;
+}
+
+.img-stack img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.img-stack .img-text {
+    color: white;
+    text-align: center;
+}
+
+/*####################### habit #######################*/
+
+
+/*####################### Run an Extra Mile #######################*/
+
+.run {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto 10%;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    background-color: #222222;
+    border-radius: 10px;
+}
+
+.run-text {
+    width: 300px;
+    color: white;
+    padding: 30px;
+}
+
+.run-image {
+    width: 300px;
+    text-align: right;
+    padding: 30px;
+}
+
+.run-image img {
+    width: 100%;
+    object-fit: scale-down;
+    border-radius: 10px;
+}
+
+/*####################### Run an Extra Mile #######################*/
+
+/*####################### BMI Calculation #######################*/
+
+.bmi {
+    width: auto;
+    margin: auto 20%;
+}
+
+.bmi-center {
+    color: white;
+    text-align: left;
+}
+
+.bmi-calculation {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #222222;
+    border-radius: 10px;
+}
+
+.chart {
+    width: 300px;
+    color: white;
+    text-align: left;
+    padding: 30px;
+}
+
+.calculator {
+
+    width: 300px;
+    text-align: left;
+    padding: 30px;
+    color: white;
+}
+
+
+
+table th,
+td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 180px;
+    height: 30px;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table td{
+
+    font-size: 0.8rem;
+}
+
+input #a,
+#h,
+#w,
+#s,
+#b {
+    width: 120px;
+    height: 20px;
+    margin: 3px;
+    padding-left: 10px;
+    background-color: #373737;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+input {
+    width: 260px;
+    height: 20px;
+    margin: 3px;
+    padding-left: 10px;
+    background-color: #373737;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+/*####################### BMI Calculation #######################*/
+
+
+/*####################### Meet Our Team #######################*/
+.meet-container {
+
+    margin: 0 10%;
+    background: black;
+}
+
+.meet-part {
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+*/
+/* Meet our team-ends here */
+
+
+/* --------Team-section */
+
+.team-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 80px 170px;
+    background: black;
+  }
+  
+  .team-content {
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    background: black;
+    margin-top: 40px;
+  }
+  
+  .team-content h2 {
+    font-size: 48px;
+  }
+  .team-content p {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    margin-top: 1.4rem;
+  }
+  
+  .team-content-title {
+    color: rgb(255, 255, 255);
+    font-size: 4px;
+    font-weight: 400;
+    letter-spacing: 0.2mm;
+  }
+  
+  .team-content-subtitle {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.2mm;
+    margin-top: 20px;
+  }
+  
+  .team-trainers {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .team-trainers-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 2.5rem;
+  }
+  .trainers {
+    position: relative;
+    width: 100%;
+    height: 27rem;
+  }
+  .trainers img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1.8rem;
+  }
+  .trainers::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 1.8rem;
+  }
+  .trainers-content {
+    position: absolute;
+    text-align: left;
+    left: 2rem;
+    bottom: 2rem;
+  }
+  .trainers-content h3 {
+    font-size: 2rem;
+  }
+  .trainers-content p {
+    font-size: 1.4rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+  }
+  
+
+
+
+/*####################### Meet Our Team #######################*/
+
+/*####################### Footer #######################*/
+
+
+.footer-container {
+    background-color: #222222;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto 10%;
+}
+
+.footer-left {
+    width: 400px;
+    margin-right: auto;
+}
+
+.footer-middle {
+    width: 200px;
+
+    margin: 25px 0;
+    margin-right: auto;
+}
+
+.footer-right {
+    width: 200px;
+
+    margin: 25px 0;
+    margin-right: auto;
+
+}
+
+
+.footer-left-title {
+    color: #E6533C;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 800;
+    text-align: left;
+}
+
+.footer-left-subtitle {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.2mm;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.services {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.services a {
+    text-decoration: none;
+    color: gray;
+}
+
+.bottom-bar {
+    padding: 2rem;
+}
+
+.bottom-bar p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+/*####################### Footer #######################*/
+
+
+@media only screen and (max-width: 600px) {
+
+    .nav-list {
+        display: none;
+    }
+
+    .icon {
+        display: inline-block;
+    }
+
+
+    .cover {
+        flex-direction: column;
+
+    }
+
+    .img-collage {
+        flex-direction: column;
+    }
+
+
+
+    .img-stack {
+        height: auto;
+        width: 300px;
+    }
+
+    .img-round {
+        height: 300px;
+        width: 300px;
+    }
+
+    .img-stack img {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    }
+
+    .img-stack .img-text {
+        color: white;
+        text-align: center;
+    }
+
+
+
+    .team-trainers-inner {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 2.5rem;
+    }
+
+    .run {
+        flex-direction: column;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .left {
+        width: 300px;
+        height: 500px;
+    }
+    
+    .right {
+        width: 300px;
+        height: 500px;
+        margin-left: auto;
+        background-image: url(images/Images\ 2.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }
+
+    .h3{
+        font-size: 1rem;
+    }
+
+    .h1{
+
+        font-size: 2rem;
+
+    }
+
+    .para-text{
+        font-size: 0.7rem;
+       
+
+    }
+
+    .body{
+
+        font-size: 1rem;
+
+    }
+
+    .shape{
+        font-family: "Grey Qo", cursive;
+        font-size: 5rem;
+    }
+
+   
+
+}
+
+
+
+@media only screen and (max-width: 450px) {
+
+    .run {
+
+        flex-direction: column;
+    }
+
+    .run-text {
+        width: 250px;
+        color: white;
+        padding: 10px;
+    }
+
+    .run-image {
+        width: 200px;
+        text-align: right;
+        padding: 30px;
+    }
+
+    .run-image img {
+        width: 100%;
+        object-fit: scale-down;
+        border-radius: 10px;
+    }
+
+    input #a,
+    #h,
+    #w,
+    #s,
+    #b {
+        width: 180px;
+    }
+
+    input {
+        width: 180px;
+    }
+
+    .footer-left {
+        width: 200px;
+        margin-right: auto;
+    }
+
+    .img-stack {
+        height: auto;
+        width: 200px;
+    }
+
+    .img-round {
+        height: 200px;
+        width: 200px;
+    }
+
+    .img-stack img {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    .img-stack .img-text {
+        color: white;
+        text-align: center;
+    }
+
+    .logo {
+        color: #E6533C;
+        font-family: sans-serif;
+        font-size: 35px;
+        font-style: italic;
+        font-weight: 600;
+        text-align: left;
+    }
+
+    .h3{
+        font-size: 1rem;
+    }
+
+    .h1{
+
+        font-size: 2rem;
+
+    }
+
+    .para-text{
+        font-size: 0.7rem;
+       
+
+    }
+
+    .body{
+
+        font-size: 1rem;
+
+    }
+
+    .shape{
+        font-family: "Grey Qo", cursive;
+        font-size: 4rem;
+    }
+
+   
+}
